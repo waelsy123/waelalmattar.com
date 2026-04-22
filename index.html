@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wael almattar</title>
+    <style>
+        body {
+            font-family: 'SF Mono', Menlo, Consolas, 'Courier New', monospace;
+            max-width: 640px;
+            margin: 80px auto;
+            padding: 0 20px;
+            background: #0d0d0d;
+            color: #cfcfcf;
+            line-height: 1.7;
+            font-size: 14px;
+        }
+
+        h1 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #e8e8e8;
+            margin: 0;
+        }
+
+        h1::before {
+            content: "$ whoami";
+            display: block;
+            color: #5a5a5a;
+            font-weight: 400;
+            margin-bottom: 4px;
+        }
+
+        .subtitle {
+            color: #7aa87a;
+            margin-bottom: 28px;
+        }
+
+        section {
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            font-size: 0.85rem;
+            font-weight: 400;
+            color: #5a5a5a;
+            margin: 0 0 8px;
+        }
+
+        h2::before {
+            content: "$ ";
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li, p {
+            color: #cfcfcf;
+            margin: 0 0 4px;
+        }
+
+        li::before {
+            content: "- ";
+            color: #5a5a5a;
+        }
+
+        .arrow {
+            color: #7aa87a;
+        }
+
+        a {
+            color: #6fa8dc;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .cursor {
+            display: inline-block;
+            width: 8px;
+            height: 14px;
+            background: #cfcfcf;
+            vertical-align: text-bottom;
+            margin-left: 4px;
+            animation: blink 1s step-end infinite;
+        }
+
+        @keyframes blink {
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Wael Almattar</h1>
+    <div class="subtitle">low-latency systems operator</div>
+
+    <section>
+        <ul>
+            <li>smart contracts and onchain systems</li>
+            <li>build real-time systems that drive revenue and conversion</li>
+            <li>design automated decision systems for marketing, sales, and execution</li>
+            <li>focus on latency, reliability, and signal quality</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>currently</h2>
+        <p><span class="arrow">&rarr;</span> building and securing Arbitrum L2 at <a href="https://www.offchainlabs.com/">OCL</a></p>
+    </section>
+
+    <section>
+        <h2>previously</h2>
+        <p><span class="arrow">&rarr;</span> google, klarna, zalando, space and time</p>
+    </section>
+
+    <section>
+        <h2>contact</h2>
+        <p>email: <a href="mailto:me@wael.today">me@wael.today</a></p>
+        <p>telegram: <a href="https://t.me/waelsy123">waelsy123</a></p>
+    </section>
+
+    <span class="cursor"></span>
+</body>
+</html>
